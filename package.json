@@ -14,7 +14,7 @@
   "scripts": {
     "pretty": "npx prettier@2.0.4 . --write",
     "predeploy": "npm run build",
-    "deploy": "gh-pages-d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
